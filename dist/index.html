@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Play Audio on Hover</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<nav>
+  <a href="#" onclick="playAudio()">HOME</a> |
+  <a href="#" onmouseenter="playAudio()">ABOUT</a> |
+  <a href="#" onmouseenter="playAudio()">RESUME</a> |
+  <a href="#" onmouseenter="playAudio()">CONTACT</a>
+</nav>
+
+<!-- Example of audio element -->
+
+<audio id="audioID">
+  <source src="http://iss240.net/tempfiles/menu-click/1.ogg" type="audio/ogg">
+  <source src="http://iss240.net/tempfiles/menu-click/1.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
